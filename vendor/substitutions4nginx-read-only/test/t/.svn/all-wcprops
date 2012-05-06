@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/55/trunk/test/t
+END
+subs_capture.t
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/51/trunk/test/t/subs_capture.t
+END
+subs_regex.t
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/51/trunk/test/t/subs_regex.t
+END
+subs_fix_string.t
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/51/trunk/test/t/subs_fix_string.t
+END
+subs.t
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/55/trunk/test/t/subs.t
+END

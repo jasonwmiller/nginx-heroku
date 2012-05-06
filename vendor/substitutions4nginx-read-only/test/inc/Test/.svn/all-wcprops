@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/50/trunk/test/inc/Test
+END
+Builder.pm
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/50/trunk/test/inc/Test/Builder.pm
+END
+Base.pm
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/50/trunk/test/inc/Test/Base.pm
+END
+More.pm
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/50/trunk/test/inc/Test/More.pm
+END

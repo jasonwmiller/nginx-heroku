@@ -1,0 +1,2 @@
+#!/bin/sh
+./nginx.configure  --with-http_stub_status_module --with-http_ssl_module  --with-http_dav_module --with-ipv6 --add-module=./vendor/substitutions4nginx-read-only

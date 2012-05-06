@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/50/trunk/test/lib/Test/Nginx
+END
+Socket.pm
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/50/trunk/test/lib/Test/Nginx/Socket.pm
+END
+Util.pm
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/50/trunk/test/lib/Test/Nginx/Util.pm
+END
+LWP.pm
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/50/trunk/test/lib/Test/Nginx/LWP.pm
+END
