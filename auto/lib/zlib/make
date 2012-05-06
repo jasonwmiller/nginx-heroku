@@ -54,7 +54,7 @@ END
 
 $ZLIB/libz.a:	$NGX_MAKEFILE
 	cd $ZLIB \\
-	&& \$(MAKE) distclean \\
+#	&& \$(MAKE) distclean \\
 	&& cp contrib/asm586/match.S . \\
 	&& CFLAGS="$ZLIB_OPT -DASMV" CC="\$(CC)" \\
 		./configure \\
