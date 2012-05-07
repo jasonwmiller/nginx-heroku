@@ -1,6 +1,8 @@
 ## Run nginx on Heroku Cedar Stack
 
-This repo contains the following
+Inspired by https://github.com/adamwiggins/nginx-as-heroku-app
+
+This repo contains the following (latest versions as of 5/7/12)
 
     nginx-1.2.0
     openssl-1.0.1b
