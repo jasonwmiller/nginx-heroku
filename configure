@@ -1,2 +1,2 @@
 #!/bin/sh
-./nginx.configure  --with-http_stub_status_module --with-http_ssl_module  --with-http_dav_module --with-ipv6 --with-pcre=./vendor/pcre-8.30 --with-zlib=./vendor/zlib-1.2.7 --add-module=./vendor/substitutions4nginx-read-only
+./nginx.configure  --with-http_stub_status_module --with-http_ssl_module  --with-http_dav_module --with-ipv6 --with-pcre=./vendor/pcre-8.30 --with-zlib=./vendor/zlib-1.2.7 --with-openssl=./vendor/openssl-1.0.1b --add-module=./vendor/substitutions4nginx-read-only

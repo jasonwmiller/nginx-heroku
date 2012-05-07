@@ -1,3 +1,5 @@
 objs
 Makefile
 .DS_Store
+*.o
+*.bak
