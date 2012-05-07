@@ -3,3 +3,9 @@ Makefile
 .DS_Store
 *.o
 *.bak
+*.a
+*.pc
+*.lo
+*.s
+*.log
+*/test/*
