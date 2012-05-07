@@ -1,6 +1,6 @@
 ## Run nginx on Heroku Cedar Stack
 
-    This repo contains the following
+This repo contains the following
     nginx-1.2.0
     openssl-1.0.1b
     pcre-8.30
