@@ -28,9 +28,9 @@ http {
 		
 		location /fund/ {
 			proxy_pass http://fund.bahai.us/;
-			#subs_filter_types text/html text/css text/xml;
-			#subs_filter '</body>' '<link rel="stylesheet" href="https://my.bahai.us/media/css/utility-nav.css" type="text/css" media="screen, projection"><link rel="stylesheet" href="https://my.bahai.us/media/js/jquery.fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen, projection"><script type="text/javascript" src="https://my.bahai.us/media/js/jquery.fancybox/jquery.fancybox-1.3.4.pack.js"></script><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script><script type="text/javascript" src="https://my.bahai.us/media/js/myproxy/jquery.cookie.min.js"></script><script type="text/javascript" src="https://my.bahai.us/media/js/myproxy/script.js"></script><script src="https://my.bahai.us/media/js/myproxy/mybahai.js"></script><script src="https://my.bahai.us/media/js/myproxy/9.js"></script></body>';
-			#subs_filter http://fund.bahai.us/ /fund/;
+			subs_filter_types text/html text/css text/xml;
+			subs_filter '</body>' '<script src="https://my.bahai.us/media/js/myproxy/mybahai.js"></script><script src="https://my.bahai.us/media/js/myproxy/9.js"></script></body>';
+			subs_filter 'http://fund.bahai.us/' '/fund/';
         }
 
         #error_page  404              /404.html;
