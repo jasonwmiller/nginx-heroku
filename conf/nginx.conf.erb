@@ -36,6 +36,7 @@ http {
 			subs_filter 'http://www.bahai.us/news/' '/news/';
 		}
 		
+		
 		location /web/ {
 			proxy_pass http://web.bahai.us/;
 			subs_filter_types text/html text/css text/xml;
