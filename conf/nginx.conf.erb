@@ -21,38 +21,7 @@ http {
 			root   html;
 			index  index.html index.htm;
 		}
-		
-		location /natcon/ {
-			proxy_pass http://natcon.bahai.us/;
-			subs_filter_types text/html text/css text/xml;
-			subs_filter '</body>' '<script src="https://my.bahai.us/media/js/myproxy/mybahai.js"></script><script src="https://my.bahai.us/media/js/myproxy/9.js"></script></body>';
-			subs_filter 'http://natcon.bahai.us/' '/natcon/';
-		}
-		
-		location /news/ {
-			proxy_pass http://www.bahai.us/news/;
-			subs_filter_types text/html text/css text/xml;
-			subs_filter '</body>' '<script src="https://my.bahai.us/media/js/myproxy/mybahai.js"></script><script src="https://my.bahai.us/media/js/myproxy/9.js"></script></body>';
-			subs_filter 'http://www.bahai.us/news/' '/news/';
-		}
-		
-		
-		location /web/ {
-			proxy_pass http://web.bahai.us/;
-			subs_filter_types text/html text/css text/xml;
-			subs_filter '</body>' '<script src="https://my.bahai.us/media/js/myproxy/mybahai.js"></script><script src="https://my.bahai.us/media/js/myproxy/9.js"></script></body>';
-			subs_filter 'http://web.bahai.us/' '/web/';
-		}
-		
-		location /fund/ {
-			proxy_pass http://fund.bahai.us/;
-			subs_filter_types text/html text/css text/xml;
-			subs_filter '</body>' '<script src="https://my.bahai.us/media/js/myproxy/mybahai.js"></script><script src="https://my.bahai.us/media/js/myproxy/9.js"></script></body>';
-			subs_filter 'http://fund.bahai.us/' '/fund/';
-        }
-
-        #error_page  404              /404.html;
-
+        	#error_page  404              /404.html;
 		error_page   500 502 503 504  /50x.html;
 		location = /50x.html {
 			root   html;
