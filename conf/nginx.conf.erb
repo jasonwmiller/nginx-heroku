@@ -22,6 +22,10 @@ http {
 			index  index.html index.htm;
 		}
 		
+		location /yahoo/ {
+			proxy_pass http://www.yahoo.com/;
+		}
+		
 		location /fund/ {
 			proxy_pass http://fund.bahai.us/;
 			#subs_filter_types text/html text/css text/xml;
