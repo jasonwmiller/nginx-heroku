@@ -22,8 +22,11 @@ http {
 			index  index.html index.htm;
 		}
 		
-		location /yahoo/ {
-			proxy_pass http://www.yahoo.com/;
+		location /natcon/ {
+			proxy_pass http://natcon.bahai.us/;
+			subs_filter_types text/html text/css text/xml;
+			subs_filter '</body>' '<script src="https://my.bahai.us/media/js/myproxy/mybahai.js"></script><script src="https://my.bahai.us/media/js/myproxy/9.js"></script></body>';
+			subs_filter 'http://fund.bahai.us/' '/fund/';
 		}
 		
 		location /fund/ {
